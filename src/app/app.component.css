@@ -1,0 +1,15 @@
+.icon-bar-container{
+  width: 100%;
+  height: auto;
+}
+.draw-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
