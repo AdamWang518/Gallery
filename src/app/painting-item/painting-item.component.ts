@@ -11,5 +11,5 @@ export class PaintingItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  url:String="https://www.ss.net.tw/images/product_images/popup_images/2428_01649477783.jpg";
 }

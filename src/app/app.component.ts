@@ -1,4 +1,6 @@
+import { Subject } from 'rxjs';
 import { Component } from '@angular/core';
+import { TaskService } from './task.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Gallery';
+  constructor(private service: TaskService){
+    this.paintGetter();
+  }
+  paintGetter():void{
+    this.service.subject.asObservable().subscribe(res => {
+      console.log(res);
+      // 成功
+    })
+  }
 }

@@ -1,0 +1,16 @@
+.container{
+  margin-top: 100px;
+  background-color: #F2F2F2;
+}
+.paint-container{
+  display: inline-block;
+}
+.draw-image{
+  height: 200px;
+}
+.paint-discribe-conatiner{
+  display: block;
+}
+.paint-discribe-conatiner{
+  
+}

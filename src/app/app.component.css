@@ -6,6 +6,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+.draw-newline{
+  width: 100%;
+  display: block;
 }
 .search-bar-container{
   display: flex;

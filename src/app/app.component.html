@@ -2,14 +2,18 @@
   <app-icon-bar></app-icon-bar>
 </div>
 <div class="container-fluid">
-  <div class="row justify-content-center mt-5">
-    <div class="col-8">
+  <div class="row">
+    <div class="col-3">
       <app-search-bar></app-search-bar>
+    </div>
+    <div class="col-9">
+      <div class="draw-container">
+        <div class="draw-newline">
+          <app-painting-item></app-painting-item>
+          <!-- 負責換行 -->
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class="draw-container">
-  <div class="draw-newline">
-    <!-- 負責換行 -->
-  </div>
-</div>
+
