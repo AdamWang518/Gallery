@@ -1,7 +1,4 @@
-.container{
-  margin-top: 100px;
-  background-color: #F2F2F2;
-}
+
 .paint-container{
   display: inline-block;
 }
@@ -12,5 +9,9 @@
   display: block;
 }
 .paint-discribe-conatiner{
-  
+  background-color: #F2F2F2;
+  height: 100%;
+}
+.padsetter{
+  padding: 0px;
 }

@@ -12,4 +12,8 @@ export class PaintingItemComponent implements OnInit {
   ngOnInit(): void {
   }
   url:String="https://www.ss.net.tw/images/product_images/popup_images/2428_01649477783.jpg";
+  name:String="測試";
+  author:String="測試";
+  year:String="測試";
+  attribute:String="測試";
 }
