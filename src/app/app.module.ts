@@ -18,7 +18,7 @@ import { PaintingItemComponent } from './painting-item/painting-item.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

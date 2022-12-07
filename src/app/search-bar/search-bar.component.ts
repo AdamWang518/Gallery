@@ -19,7 +19,7 @@ export class SearchBarComponent implements OnInit {
     this.pack.author=this.author;
     this.pack.name=this.name;
     this.pack.attribute=this.attribute;
-    this.pack.century=this.century;
+    this.pack.century=this.century.replace("世紀","");;
     this.service.subject.next(this.pack);
   }
   pack:searchInfo=new searchInfo();
@@ -27,6 +27,6 @@ export class SearchBarComponent implements OnInit {
   name: String = "";
   attribute: String = "";
   century:String="";
-  centuries: String[] = ["1世紀", "2世紀", "3世紀", "4世紀", "5世紀", "6世紀", "7世紀", "8世紀", "9世紀", "10世紀", "11世紀", "12世紀", "13世紀", "13世紀", "14世紀", "15世紀", "16世紀", "17世紀", "18世紀", "19世紀", "20世紀", "21世紀"];
+  centuries: String[] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "13", "14", "15", "16", "17", "18", "19", "20", "21"];
 
 }
